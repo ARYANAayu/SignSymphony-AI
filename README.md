@@ -1,10 +1,10 @@
-# Sanket
-Introducing... **SANKET** - 
+# SignSymphony-AI
+Introducing... **SignSymphony-AI** - 
 _**Speech to Indian Sign Language Translator**_
 
 ## Getting Started
 
-**Sanket** is (currently) an _Android_ based _Indian Sign Langauge Mediator mobile app_ made using _Flutter_ and _Blender_. It is a virtual interpreter that translates Speech to Indian Sign Language (ISL) and helps to bridge the communication gap between people of the speaking community and the deaf & hard of hearing (DHH) community.
+**SignSymphony-AI** is (currently) an _Android_ based _Indian Sign Langauge Mediator mobile app_ made using _Flutter_ and _Blender_. It is a virtual interpreter that translates Speech to Indian Sign Language (ISL) and helps to bridge the communication gap between people of the speaking community and the deaf & hard of hearing (DHH) community.
 
 _This project's created as a part of school-pbl-activity._
 
