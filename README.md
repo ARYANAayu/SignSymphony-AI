@@ -4,7 +4,7 @@ _**Speech to Indian Sign Language Translator**_
 
 ## Getting Started
 
-**SignSymphony-AI** is (currently) an _Android_ based _Indian Sign Langauge Mediator mobile app_ made using _Flutter_ and _Blender_. It is a virtual interpreter that translates Speech to Indian Sign Language (ISL) and helps to bridge the communication gap between people of the speaking community and the deaf & hard of hearing (DHH) community.
+**SignSymphony-AI is an Android-based Indian Sign Language mediator app developed using Kotlin and Blender. It acts as a virtual interpreter, converting real-time speech into Indian Sign Language (ISL) animations, aiming to bridge the communication gap between the hearing and the DHH (Deaf and Hard of Hearing) communities.
 
 _This project's created as a part of school-pbl-activity._
 
@@ -32,41 +32,39 @@ https://github.com/ARYANAayu/SignSymphony-AI
 
 **Step 2:**
 
-Go to project root and execute the following command in console to get the required dependencies: 
+Open the project in Android Studio and allow Gradle to sync.
+Make sure you have an emulator or physical device set up and click Run to build and launch the app.
 
-```
-flutter pub get 
+
 ```
 
 ## Folder Structure
 Here is the core folder structure.
 
 ```
-flutter-app/
-|- android
-|- assets
-|- ios
-|- lib
-|- test
-```
+SignSymphony-AI/
+│
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/com/yourpackage/signsymphony/
+│           │   ├── MainActivity.kt
+│           │   ├── SpeechToSignActivity.kt
+│           │   └── utils/
+│           │       └── GestureUtils.kt
+│           ├── res/
+│           │   ├── layout/
+│           │   └── drawable/
+│           └── assets/
+│               └── animations/
 
-Here is the folder structure we have been using in this project
 
-```
-lib/
-|- main.dart
-|- speechToSign.dart
-|- utils.dart
-```
+Kotlin File Roles
+MainActivity.kt – Entry point of the app, handles permission and UI routing.
 
-Now, lets dive into the lib folder which has the main code for the application.
+SpeechToSignActivity.kt – Core logic: speech recognition and gesture translation.
 
-```
-1- main.dart - This is the starting point of the application. 
-2- speechToSign.dart — This file is the heart of the application. Major application level configurations : Home Screen UI, Translation logic are defined in this file.
-3- utils.dart — This file contains all the utilities such as list for phrases, words, letters, etc for your translation.
-```
-
+GestureUtils.kt – Utility functions and mapping logic for ISL gestures.
 
 ## Screenshots 
 
