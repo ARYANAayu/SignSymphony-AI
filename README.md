@@ -27,7 +27,7 @@ _This project's created as a part of school-pbl-activity._
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/Mishra-Shreya/Sanket.git
+https://github.com/ARYANAayu/SignSymphony-AI
 ```
 
 **Step 2:**
